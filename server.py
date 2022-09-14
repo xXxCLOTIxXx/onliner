@@ -62,4 +62,4 @@ def add_message():
         Thread(target=clear, args=(req_json.get('uid'),)).start()
     return json_
 
-app.run(debug=True, port=port, host=ip)
+#app.run(debug=True, port=port, host=ip)
